@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ecf5fe;
+}
+
+/* Navigation Bar */
+nav ul li {
+    float: left;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Company Logo */
+.com-logo {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Common Button */
+
+button {
+    /* padding: 5px; */
+    background-color: #5a4bda;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+.nav-btn {
+    margin-top: 28px;
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    width: 100px;
+
+}
+
+.sect-btn {
+    height: 30px;
+    margin-top: 50px;
+    width: 150px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Left content */
+.left-content h1 {
+    font-size: 50px;
+}
+
+.left-content p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+span {
+    color: #5a4bdf;
+}
+
+/* Right Content */
+.right-content {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+/* Hover */
+button:hover {
+    background-color: transparent;
+    color: #5a4bda;
+    font-weight: 600;
+    border: 2px solid #5a4bda;
+    cursor: pointer;
+}
+
+.bord:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
